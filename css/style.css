@@ -7,6 +7,17 @@
 /* 1. Theme default css */
 @import url("https://fonts.googleapis.com/css?family=Alata|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 /* line 5, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
+.myclass {
+  font-size: 16px;
+  font-style: oblique;
+  white-space: nowrap;
+}
+
+.myclass::first-line{
+  font-size: 20px;
+  font-style: normal;
+}
+
 body {
   font-family: "Alata", sans-serif;
   font-weight: normal;
@@ -2373,7 +2384,7 @@ h3 {
 /* line 7, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_footer.scss */
 .footer .footer_top {
   padding-top: 116px;
-  padding-bottom: 190px;
+  padding-bottom: 70px;
 }
 
 @media (max-width: 767px) {
@@ -3922,14 +3933,14 @@ h3 {
 /* line 16, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
 .contact-info__icon i, .contact-info__icon span {
   color: #8f9195;
-  font-size: 27px;
+  font-size: 35px;
 }
 
 /* line 24, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
 .contact-info .media-body h3 {
-  font-size: 16px;
+  font-size: px;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: px;
   color: #2a2a2a;
 }
 
@@ -3988,6 +3999,7 @@ h3 {
 .form-contact textarea {
   border-radius: 0px;
   height: 100% !important;
+  width: 200px;
 }
 
 /*=================== contact form end ====================*/
