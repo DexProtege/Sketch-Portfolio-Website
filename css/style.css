@@ -25,6 +25,13 @@
   font-style: oblique;
   text-align: center;
   width: auto;
+}
+
+.myclass2 {
+  font-size: 13px;
+  font-style: oblique;
+  text-align: center;
+  width: auto;
   margin-top: -150px;
 }
 
