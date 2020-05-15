@@ -8,12 +8,37 @@
 @import url("https://fonts.googleapis.com/css?family=Alata|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 /* line 5, ../../Arafath/CL/December/230. Portfolio/HTML/scss/theme-default.scss */
 .myclass {
-  font-size: 16px;
+  font-size: 13px;
   font-style: oblique;
-  white-space: nowrap;
+  text-align: center;
+  margin-left: auto;
 }
 
 .myclass::first-line{
+  font-size: 20px;
+  font-style: normal;
+}
+
+.myclass2 {
+  font-size: 13px;
+  font-style: oblique;
+  text-align: center;
+  
+}
+
+.myclass2::first-line{
+  font-size: 20px;
+  font-style: normal;
+}
+
+.myclass3 {
+  font-size: 13px;
+  font-style: oblique;
+  text-align: center;
+  margin-right: auto;
+}
+
+.myclass3::first-line{
   font-size: 20px;
   font-style: normal;
 }
@@ -3080,6 +3105,7 @@ h3 {
   -o-transition: 0.3s;
   transition: 0.3s;
   margin-bottom: 30px;
+  max-width: 1000px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -4051,6 +4077,7 @@ h3 {
 /* line 133, ../../Arafath/CL/December/230. Portfolio/HTML/scss/_contact.scss */
 .contact-section {
   padding: 130px 0 100px;
+  width: auto;
 }
 
 @media (max-width: 991px) {
